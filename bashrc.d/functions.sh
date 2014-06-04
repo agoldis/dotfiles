@@ -9,7 +9,11 @@
 alias vi='vim -p'
 
 # Human readable, coloured ls
-alias ls='ls -hF --color=auto'
+alias ls='ls -hGF'
+
+# Fast listing
+alias ll='ls -hFGla'
+
 
 # Copy to the clipboard, for ctrl+v pasting
 alias xclip='xclip -selection "clipboard"'

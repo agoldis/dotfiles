@@ -68,7 +68,7 @@ set statusline+=\ %<%-5.80f            " Filename
 set statusline+=\ %#User2#\            " Less important shit
 set statusline+=%y                     " Filetype
 set statusline+=%h%m%r%w               " flags
-set statusline+=%{fugitive#statusline()} " Git flags
+" set statusline+=%{fugitive#statusline()} " Git flags
 set statusline+=\ %#User3#%=%#User2#\  " Fill to RHS
 set statusline+=\ %4b│0x%-4B\ ╱        " Character number
 set statusline+=\ %P\ of\ %L\ ╱        " Position

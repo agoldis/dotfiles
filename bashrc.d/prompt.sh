@@ -20,6 +20,7 @@ fi
 export LC_SSH_PPLIST="${list}${sep}»$( hostname )"
 
 VCPROMPT="$HOME/.bashrc.d/vcprompt"
+GIT_PROMPT_ONLY_IN_REPO=1
 
 # Set PS1. Levels are:
 # * 0, low, minimal: Minimal PS1. Useful for slow systems, or systems with
@@ -59,6 +60,7 @@ function prompt-level() {
 
 	export PROMPT_LEVEL=$level
 }
+source ~/.git-prompt/gitprompt.sh
 
 function ++prompt () {
 	level=$(( $PROMPT_LEVEL + 1))

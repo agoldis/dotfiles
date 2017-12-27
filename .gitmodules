@@ -56,3 +56,7 @@
 [submodule "git-prompt"]
 	path = git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
+[submodule "bash-git-prompt"]
+	path = bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt.git
+	branch = master

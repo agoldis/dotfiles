@@ -60,7 +60,7 @@ function prompt-level() {
 
 	export PROMPT_LEVEL=$level
 }
-source ~/.git-prompt/gitprompt.sh
+source ~/.bash-git-prompt/gitprompt.sh
 
 function ++prompt () {
 	level=$(( $PROMPT_LEVEL + 1))

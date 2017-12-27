@@ -53,6 +53,6 @@
 [submodule "vim/bundle/typescript"]
 	path = vim/bundle/typescript
 	url = https://github.com/leafgarland/typescript-vim.git
-[submodule "bash-git-prompt"]
+[submodule "git-prompt"]
 	path = git-prompt
-	url = https://github.com/magicmonty/bash-git-prompt.git 
+	url = https://github.com/magicmonty/bash-git-prompt.git

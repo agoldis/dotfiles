@@ -27,6 +27,7 @@ source "$HOME/.bashrc.d/venv.sh"
 source "$HOME/.bashrc.d/colours.sh"
 source "$HOME/.bashrc.d/installers.sh"
 source "$HOME/.bashrc.d/git-autocomplete.sh"
+source "$HOME/.bashrc.local"
 
 
 # Source in any local bashrc

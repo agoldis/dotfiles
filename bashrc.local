@@ -1,0 +1,7 @@
+export JAVA_HOME=/apollo/env/JavaSE8/jdk1.8
+
+export PATH="$JAVA_HOME/bin:/apollo/env/AmazonAwsCli/bin/:$BRAZIL_CLI_BIN:$PATH"
+export BRAZIL_PLATFORM_OVERRIDE=RHEL5_64
+export TZ=Canada/Pacific
+alias brazil-octane='/apollo/env/OctaneBrazilTools/bin/brazil-octane'
+alias bb=brazil-build

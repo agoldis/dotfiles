@@ -25,7 +25,6 @@ source "$HOME/.bashrc.d/python.sh"
 source "$HOME/.bashrc.d/haskell.sh"
 source "$HOME/.bashrc.d/venv.sh"
 source "$HOME/.bashrc.d/colours.sh"
-source "$HOME/.bashrc.d/installers.sh"
 source "$HOME/.bashrc.d/git-autocomplete.sh"
 source "$HOME/.bashrc.local"
 

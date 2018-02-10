@@ -5,3 +5,4 @@ export BRAZIL_PLATFORM_OVERRIDE=RHEL5_64
 export TZ=Canada/Pacific
 alias brazil-octane='/apollo/env/OctaneBrazilTools/bin/brazil-octane'
 alias bb=brazil-build
+alias register_with_aaa=/apollo/env/AAAWorkspaceSupport/bin/register_with_aaa.py

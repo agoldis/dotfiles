@@ -11,4 +11,7 @@ if [ -f '/Users/agoldis/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Us
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/agoldis/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/agoldis/Downloads/google-cloud-sdk/completion.bash.inc'; fi
 
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
 

@@ -52,7 +52,7 @@
 [merge]
 	log = true
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/agoldis/.gitignore_global
 
 [rebase]
 	autosquash = on
@@ -60,3 +60,13 @@
 	status = true
 [push]
 	default = nothing
+[credential]
+	helper = osxkeychain
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/agoldis/.stCommitMsg

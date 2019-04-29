@@ -1,0 +1,14 @@
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+alias start_mongo="mongod --dbpath ~/mongodb --syslog --fork"
+alias start_postresql="brew services start postgresql"
+alias start_iphone_8="ios-sim start --devicetypeid iPhone-8"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/agoldis/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/agoldis/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/agoldis/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/agoldis/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+
+

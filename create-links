@@ -54,9 +54,9 @@ link_files () {
 		target=$( readlink "$broken_link" )
 		if [[ "$target" == "$base"/* ]] ; then
 			echo "Removing dangling symlink \`$broken_link' -> \`$target'"
-			rm $broken_link
+#			rm $broken_link
 		fi
-	done 3< <( find $destination -maxdepth 1 -type l -xtype l -print0 )
+	done 3< <( find $destination -maxdepth 1 -type l -print0 )
 }
 
 

@@ -2,7 +2,7 @@
 # ----------------------------------------------------
 
 # Thats where I live!
-export TZ='Australia/Hobart'
+export TZ='America/Vancouver'
 
 # Yay vim
 export VISUAL='/usr/bin/vim'

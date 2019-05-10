@@ -21,6 +21,12 @@
 	wdiff = diff --color-words
 	st = status -sb
 	ff = merge --ff-only
+	co = checkout
+	checkout = checkout
+	diff = diff
+	commit = commit
+	push = push
+	pull = pull
 
 	quick-amend = !VISUAL=/bin/true git commit --amend
 
